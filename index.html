@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="./assets/images/favicon/lanezedfer-favicon-32x32.ico" rel="icon" type="image/x-icon" sizes="32x32">
+    <link href="./assets/images/favicon/lanezedfer-favicon-16x16.ico" rel="icon" type="image/x-icon" sizes="16x16">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+    <script src="./assets/javascript/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="header__top">
+        <div class="header__search-wrapper" id="search_wrapper">
+          <img src="./assets/images/icons/search-icon.svg" alt="search-icon" class="header__icon">
+          <input type="search" placeholder="Search..." id="search_input" class="header__search">
+        </div>
+        <img src="./assets/images/icons/notification-icon.svg" alt="notification-icon" class="header__icon">
+        <a href="#"><img src="./assets/images/profiles/lanezedfer-profile.jpg" alt="profile-icon" class="icon-profile-small"></a>
+        <p class="header__txt-profile-medium">Lanezedfer</p>
+      </nav>
+      <nav class="header__bottom">
+        <a href="#"><img src="./assets/images/profiles/lanezedfer-profile.jpg" alt="profile-icon" class="icon-profile"></a>
+        <div>
+          <p class="header__txt-profile-small">Hi there,</p>
+          <p class="header__txt-profile-large">Lanezedfer (@lanezedfer)</p>
+        </div>
+        <button class="header__btn">New</button>
+        <button class="header__btn">Upload</button>
+        <button class="header__btn">Share</button>
+      </nav>
+    </header>
+    <aside>
+      <nav class="sidebar">
+        <a href="#" class="sidebar__logo">
+          <img src="./assets/images/icons/dashboard-icon.svg" alt="logo" class="sidebar__icon-logo"><span>Dashboard</span>
+        </a>
+        <hr>
+        <ul class="sidebar__wrapper">
+          <li class="sidebar__list"><a href="#" class="sidebar__link"><img src="./assets/images/icons/home-icon.svg" alt="home-icon" class="sidebar__icon"><span>Home</span></a></li>
+          <li class="sidebar__list">
+            <a href="#" class="sidebar__link"><img src="./assets/images/icons/profile-icon.svg" alt="profile-icon" class="sidebar__icon"><span>Profile</span></a>
+          </li>
+          <li class="sidebar__list">
+            <a href="#" class="sidebar__link"><img src="./assets/images/icons/message-icon.svg" alt="message-icon" class="sidebar__icon"><span>Messages</span></a>
+          </li>
+          <li class="sidebar__list">
+            <a href="#" class="sidebar__link"><img src="./assets/images/icons/history-icon.svg" alt="history-icon" class="sidebar__icon"><span>History</span></a>
+          </li>
+          <li class="sidebar__list"><a href="#" class="sidebar__link"><img src="./assets/images/icons/task-icon.svg" alt="task-icon" class="sidebar__icon"><span>Tasks</span></a></li>
+          <li class="sidebar__list"><a href="#" class="sidebar__link">
+            <img src="./assets/images/icons/community-icon.svg" alt="community-icon" class="sidebar__icon"><span>Communities</span></a>
+          </li>
+        </ul>
+        <hr>
+        <ul class="sidebar__wrapper">
+          <li class="sidebar__list"><a href="#" class="sidebar__link">
+            <img src="./assets/images/icons/settings-icon.svg" alt="settings-icon" class="sidebar__icon"><span>Settings</span></a>
+          </li>
+          <li class="sidebar__list"><a href="#" class="sidebar__link">
+            <img src="./assets/images/icons/support-icon.svg" alt="support-icon" class="sidebar__icon"><span>Support</span></a>
+          </li>
+          <li class="sidebar__list"><a href="#" class="sidebar__link">
+            <img src="./assets/images/icons/privacy-icon.svg" alt="privacy-icon" class="sidebar__icon"><span>Privacy</span></a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <section class="main__project">
+        <h1 class="main__title">Your Projects</h1>
+        <div class="main__project-wrapper">
+          <div class="main__project-card">
+            <article class="main__project-content">
+              <a href="#" class="main__project-link-title"><h2 class="main__card-txt-title">Basic Project</h2></a>
+              <p class="main__card-txt-description">
+                This project is most likely to be the worst. Either only some parts of it work or everything works but in an unoptimized way. In most cases, there is no
+                documentation, and many parts of the code contain redundancies, conflicts, errors, and unreadable sections.
+              </p>
+            </article>
+            <img src="./assets/images/icons/star-icon.svg" alt="star-icon" class="main__project-icon-star">
+            <img src="./assets/images/icons/watch-icon.svg" alt="watch-icon" class="main__project-icon-watch">
+            <img src="./assets/images/icons/fork-icon.svg" alt="fork-icon" class="main__project-icon-fork">
+          </div>
+          <div class="main__project-card">
+            <article class="main__project-content">
+              <a href="#" class="main__project-link-title"><h2 class="main__card-txt-title">Beginner Project</h2></a>
+              <p class="main__card-txt-description">
+                This project is still bad but better than the previous project. Most parts of it work but there are some unresolved issues. At the very least, there is an extremely
+                basic documentation and the code has lesser redundancies, conflicts, and errors.
+              </p>
+            </article>
+            <img src="./assets/images/icons/star-icon.svg" alt="star-icon" class="main__project-icon-star">
+            <img src="./assets/images/icons/watch-icon.svg" alt="watch-icon" class="main__project-icon-watch">
+            <img src="./assets/images/icons/fork-icon.svg" alt="fork-icon" class="main__project-icon-fork">
+          </div>
+          <div class="main__project-card">
+            <article class="main__project-content">
+              <a href="#" class="main__project-link-title"><h2 class="main__card-txt-title">Intermediate Project</h2></a>
+              <p class="main__card-txt-description">
+                This project is noticeably better than the first project. Everything should work as intended but some features may not use the most optimal method. The documentation
+                is solid, and the code has very few redundancies.
+              </p>
+            </article>
+            <img src="./assets/images/icons/star-icon.svg" alt="star-icon" class="main__project-icon-star">
+            <img src="./assets/images/icons/watch-icon.svg" alt="watch-icon" class="main__project-icon-watch">
+            <img src="./assets/images/icons/fork-icon.svg" alt="fork-icon" class="main__project-icon-fork">
+          </div>
+          <div class="main__project-card">
+            <article class="main__project-content">
+              <a href="#" class="main__project-link-title"><h2 class="main__card-txt-title">Advanced Project</h2></a>
+              <p class="main__card-txt-description">
+                This project can be applied in the industry. Everything works as intended, the documentation is detailed, and the code follows good standards.
+              </p>
+            </article>
+            <img src="./assets/images/icons/star-icon.svg" alt="star-icon" class="main__project-icon-star">
+            <img src="./assets/images/icons/watch-icon.svg" alt="watch-icon" class="main__project-icon-watch">
+            <img src="./assets/images/icons/fork-icon.svg" alt="fork-icon" class="main__project-icon-fork">
+          </div>
+          <div class="main__project-card">
+            <article class="main__project-content">
+              <a href="#" class="main__project-link-title"><h2 class="main__card-txt-title">Expert Project</h2></a>
+              <p class="main__card-txt-description">
+                This project is considered as one of the top in the industry. It includes features that fare well compared to other alternatives, the documentation is extremely
+                detailed, and the code is efficient.
+              </p>
+            </article>
+            <img src="./assets/images/icons/star-icon.svg" alt="star-icon" class="main__project-icon-star">
+            <img src="./assets/images/icons/watch-icon.svg" alt="watch-icon" class="main__project-icon-watch">
+            <img src="./assets/images/icons/fork-icon.svg" alt="fork-icon" class="main__project-icon-fork">
+          </div>
+          <div class="main__project-card">
+            <article class="main__project-content">
+              <a href="#" class="main__project-link-title"><h2 class="main__card-txt-title">Exceptional Project</h2></a>
+              <p class="main__card-txt-description">
+                This project is considered as one of those revolutionary projects. Its features are innovative, the documentation includes all scenarios and cases without exception,
+                and the code is at its simplest yet most efficient.
+              </p>
+            </article>
+            <img src="./assets/images/icons/star-icon.svg" alt="star-icon" class="main__project-icon-star">
+            <img src="./assets/images/icons/watch-icon.svg" alt="watch-icon" class="main__project-icon-watch">
+            <img src="./assets/images/icons/fork-icon.svg" alt="fork-icon" class="main__project-icon-fork">
+          </div>
+        </div>
+      </section>
+      <section class="main__announcement">
+        <h1 class="main__title">Announcements</h1>
+        <div class="main__card">
+          <article>
+            <h2 class="main__card-txt-title">Site Maintenance</h2>
+            <p class="main__card-txt-description">
+              Depending on the developer of this project, <a href="https://github.com/Lanezedfer/admin-dashboard" target="_blank" rel="noopener noreferrer" class="txt-link">
+              admin-dashboard</a> may or may not have any additional changes upon release.
+            </p>
+          </article>
+          <hr>
+          <article>
+            <h2 class="main__card-txt-title">A Reminder</h2>
+            <p class="main__card-txt-description">
+              Be reminded that this project was developed solely to showcase the visual appearance of a dashboard. This project is neither a functional application nor does it have
+              any backend integration.
+            </p>
+          </article>
+          <hr>
+          <article>
+            <h2 class="main__card-txt-title">Updated Privacy Policy</h2>
+            <p class="main__card-txt-description">
+              This project does not, in any way, collect any information about you, nor was it intended to do so. You may view the source code
+              <a href="https://github.com/Lanezedfer/admin-dashboard" target="_blank" rel="noopener noreferrer" class="txt-link">here</a> to see for yourself.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="main__trending">
+        <h1 class="main__title">Trending</h1>
+        <div class="main__card">
+          <div class="main__trending-row">
+            <a href="#"><img src="./assets/images/profiles/standard-user-profile.jpg" alt="profile-icon" class="icon-profile"></a>
+            <div>
+              <a href="#" class="main__trending-link-user">@standard-user</a>
+              <a href="#" class="main__trending-link-project">Public Project</a>
+            </div>
+          </div>
+          <div class="main__trending-row">
+            <a href="#"><img src="./assets/images/profiles/professional-user-profile.jpg" alt="profile-icon" class="icon-profile"></a>
+            <div>
+              <a href="#" class="main__trending-link-user">@professional-user</a>
+              <a href="#" class="main__trending-link-project">Private Project</a>
+            </div>
+          </div>
+          <div class="main__trending-row">
+            <a href="#"><img src="./assets/images/profiles/mysterious-user-profile.jpg" alt="profile-icon" class="icon-profile"></a>
+            <div>
+              <a href="#" class="main__trending-link-user">@mysterious-user</a>
+              <a href="#" class="main__trending-link-project">Open Source Project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Developed by <a href="https://github.com/Lanezedfer" target="_blank" rel="noopener noreferrer" class="txt-link">Lanezedfer</a></p>
+    </footer>
+  </body>
+</html>
